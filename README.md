@@ -30,6 +30,12 @@ This software is a part of the [Apache Metron](https://metron.apache.org/) proje
 
 1. Configure `zkg` by following the quickstart guide [here](https://docs.zeek.org/projects/package-manager/en/stable/quickstart.html).
 
+1. Ensure btest package is installed (required for unit testing).
+
+    ```
+    sudo apt install btest
+    ```
+
 1. Install the plugin using `zkg install`.
 
     ```
